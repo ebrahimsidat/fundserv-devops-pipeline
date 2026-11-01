@@ -7,4 +7,11 @@ terraform {
       version = "~> 4.0"
     }
   }
+
+  backend "azurerm" {
+    resource_group_name  = "fsdemo-tfstate-rg"
+    storage_account_name = "fsdemotfstate9564"
+    container_name       = "tfstate"
+    key                  = "lab.terraform.tfstate"
+  }
 }
