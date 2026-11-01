@@ -1,1 +1,1 @@
-﻿# Fundserv DevOps Pipeline (training lab)
+# Fundserv DevOps Pipeline (training lab)
